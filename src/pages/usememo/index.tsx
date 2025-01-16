@@ -1,4 +1,3 @@
-"use client";
 import React, { useState, useMemo, ChangeEvent } from "react";
 
 const ExpensiveComputation = ({ num }: { num: number }) => {
@@ -6,7 +5,7 @@ const ExpensiveComputation = ({ num }: { num: number }) => {
     console.log("Running expensive calculation...");
     // Simulate expensive calculation
     let result = 0;
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 1; i++) {
       console.log("i", i);
       result += n;
     }
